@@ -20,3 +20,24 @@
 2. Create a [Travis-CI account](https://travis-ci.org/) account and sync it to your GitHub if you don't have one already; it may take a few minutes for Travis-CI to discover your new repo
 3. Under the settings page for your repo (``https://travis-ci.org/<user>/<repo>/settings``), create two environment variables: ``GITHUB_USER`` and ``GITHUB_API_KEY``. The former is just your GitHub username, while the latter is your [secret GitHub API token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line). This allows Travis-CI to commit and push changes to your repository on your behalf. Treat this token as you would treat a password, and never store it anywhere on your repo! Make sure to disable **Display value in build log** so it doesn't get leaked to the world. Note that you only need to give Travis **repo** permissions
 4. Hack away! Read the brief [paper](https://github.com/mxochicale/my-corTeX/raw/master-pdf/ms.pdf) explaining more details about how to use **corTeX**
+
+
+## Usage
+
+```
+git add .
+git commit -m 'message'
+git push origin master
+```
+wait for the CI build at `https://travis-ci.org/mxochicale/my-cortex`
+
+```
+Done. Your build exited with 0.
+```
+
+Then compare and pull request
+![figure](/compare-pull-request.png)
+
+
+
+
