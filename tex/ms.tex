@@ -27,7 +27,7 @@ it easy to make your scientific articles open source and reproducible.
 \textsc{corTeX} currently does two things. First, it defines the
 \textsf{\textbackslash oscaption} command, which adds
 links to all figure captions pointing to the exact script that generated it;
-see Figure~\ref{fig:pretty_function} and \ref{fig:ugly_function}.
+see Figure~\ref{fig:pretty_function}.
 %
 \begin{figure}[h!]
     \begin{centering}
@@ -42,18 +42,18 @@ see Figure~\ref{fig:pretty_function} and \ref{fig:ugly_function}.
 \end{figure}
 %
 
-\begin{figure}[h!]
-    \begin{centering}
-    \includegraphics[width=0.5\linewidth]{figures/ugly_function.pdf}
-    \oscaption{ugly_function}{%
-        This is a plot of a pretty function. And at the end of this
-        caption is a symbol with a link to the \emph{exact} script
-        that generated it, hosted on \textsf{GitHub}.
-        \label{fig:ugly_function}
-    }
-    \end{centering}
-\end{figure}
-%
+%and \ref{fig:ugly_function}.
+%\begin{figure}[h!]
+%    \begin{centering}
+%    \includegraphics[width=0.5\linewidth]{figures/ugly_function.pdf}
+%    \oscaption{ugly_function}{%
+%        This is a plot of a pretty function. And at the end of this
+%        caption is a symbol with a link to the \emph{exact} script
+%        that generated it, hosted on \textsf{GitHub}.
+%        \label{fig:ugly_function}
+%    }
+%    \end{centering}
+%\end{figure}
 
 
 Second, it defines the \textsf{\textbackslash proof} environment, which
