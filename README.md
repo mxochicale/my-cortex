@@ -38,6 +38,5 @@ Done. Your build exited with 0.
 Then compare and pull request
 ![figure](/compare-pull-request.png)
 
-
-
+Voila, your PDF file is available in the master-pdf branch as [ms.pdf](https://github.com/mxochicale/my-corTeX/raw/master-pdf/ms.pdf)
 

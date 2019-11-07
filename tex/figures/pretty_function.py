@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Compute sin(1 / xy)
-sz = 1000
+sz = 2000
 X = np.linspace(-1, 1, sz)
 Y = np.linspace(-1, 1, sz)
 X, Y = np.meshgrid(X, Y)
