@@ -32,8 +32,8 @@ git add .
 git commit -m 'message'
 git push origin master
 ```
-Then, you should wait for the CI build at `[https://travis-ci.org/mxochicale/my-cortex](https://travis-ci.org/mxochicale/my-cortex)`
-and if the CI build is successful, you will see at the bottom of the terminal: 
+Then, you should wait for the CI build at [https://travis-ci.org/mxochicale/my-cortex](https://travis-ci.org/mxochicale/my-cortex).
+If the CI build is successful, you will then see at the bottom of the terminal: 
 ```
 Done. Your build exited with 0.
 ```
