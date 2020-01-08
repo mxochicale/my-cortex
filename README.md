@@ -25,19 +25,18 @@
 ## Usage
 
 1. Edit [ms.tex](/tex/ms.tex) or [py-scripts](/tex/figures/)
-2. Add, commit and push changes to the master of the repository
-
+2. Add, commit and push changes to the master of the repository as shown below
 ```
 git add .
 git commit -m 'message'
 git push origin master
 ```
 Then, you should wait for the CI build at [https://travis-ci.org/mxochicale/my-cortex](https://travis-ci.org/mxochicale/my-cortex).
-If the CI build is successful, you will then see at the bottom of the terminal: 
+If the CI build is successful, you will then see at the bottom of the job log: 
 ```
 Done. Your build exited with 0.
 ```
 
-3. Your PDF file is ready!  
-Voila, your PDF file is available in the master-pdf branch as [ms.pdf](https://github.com/mxochicale/my-corTeX/raw/master-pdf/ms.pdf)
+3. Voila, your PDF file is ready!  
+Your PDF file is available in the master-pdf branch as [ms.pdf](https://github.com/mxochicale/my-corTeX/raw/master-pdf/ms.pdf)
 
