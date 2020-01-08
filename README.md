@@ -24,19 +24,21 @@
 
 ## Usage
 
+1. Edit [ms.tex](/tex/ms.tex) or [py-scripts](/tex/figures/)
+2. Add, commit and push changes to the master of the repository
+
 ```
 git add .
 git commit -m 'message'
 git push origin master
 ```
-wait for the CI build at `https://travis-ci.org/mxochicale/my-cortex`
+Then, you should wait for the CI build at `https://travis-ci.org/mxochicale/my-cortex`
+and if that is successful, you will see 
 
 ```
 Done. Your build exited with 0.
 ```
 
-Then compare and pull request
-![figure](/compare-pull-request.png)
-
+3. Your PDF file is ready!  
 Voila, your PDF file is available in the master-pdf branch as [ms.pdf](https://github.com/mxochicale/my-corTeX/raw/master-pdf/ms.pdf)
 
