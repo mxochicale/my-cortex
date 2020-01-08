@@ -8,7 +8,7 @@ sz = 5000
 X = np.linspace(-1, 1, sz)
 Y = np.linspace(-1, 1, sz)
 X, Y = np.meshgrid(X, Y)
-Z = np.sin(1 / (X * Y))
+Z = np.sin(X) + np.sin(Y)
 
 # Plot it
 fig, ax = plt.subplots(1)
