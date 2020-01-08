@@ -1,5 +1,5 @@
 <h1 align="center">
-  cortex
+  corTeX
 </h1>
 <p align="center">
   Continuously-integrated Open-source Reproducible TeX
@@ -32,9 +32,8 @@ git add .
 git commit -m 'message'
 git push origin master
 ```
-Then, you should wait for the CI build at `https://travis-ci.org/mxochicale/my-cortex`
-and if that is successful, you will see 
-
+Then, you should wait for the CI build at `[https://travis-ci.org/mxochicale/my-cortex](https://travis-ci.org/mxochicale/my-cortex)`
+and if the CI build is successful, you will see at the bottom of the terminal: 
 ```
 Done. Your build exited with 0.
 ```
